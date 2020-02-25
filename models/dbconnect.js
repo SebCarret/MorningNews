@@ -1,9 +1,5 @@
 const mongoose = require('mongoose');
 
-var user = "sebastiencarret";
-var password = "LaC@psule69";
-var dbName = "cluster0-idjyo.mongodb.net/MorningNews";
-
 var options = {
    connectTimeoutMS: 5000,
    useNewUrlParser: true,
