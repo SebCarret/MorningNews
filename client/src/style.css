@@ -1,0 +1,57 @@
+.login {
+  background-image: url('/flat01.png');
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  border-radius: 5%;
+  border-color: white;
+  background-color: rgba(63,169,255,0.5);
+  margin: 40px;
+}
+
+.login-input{
+  margin: 15px;
+  width: 400px;
+}
+
+.banner {
+  height: 80px;
+  background-image: url('/flat01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.langage {
+  width: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* .sign .login-input{
+  width: 250px;
+} */
